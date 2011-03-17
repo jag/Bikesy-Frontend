@@ -13,12 +13,23 @@ a img{
 	border:none;
 }
 
-h1.logo{
-  background:#333 url(../images/bikesy-mobile-logo.png) 0 0 no-repeat;
+.logo{
   height:57px;
-  text-indent:-9009px;
   margin:0;
   padding:0;
+  background-image: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      color-stop(0, rgb(0,105,175)),
+      color-stop(1, rgb(125,203,255))
+  );
+  background-image: -moz-linear-gradient(
+      center bottom,
+      rgb(0,105,175) 0%,
+      rgb(125,203,255) 100%
+  );
+  
 }
 
 .error{
