@@ -274,6 +274,7 @@ function resizeMobile(){
     } else {
       mapheight = $(window).height()+60-parseInt($('#map .ui-header').css('height'));
     }
+    panoheight = $(window).height()+60-parseInt($('#streetview .ui-header').css('height'));
   } else {
     //Not iphone
     if($(window).height()>500 && document.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#BasicStructure", "1.1")==true){
@@ -282,9 +283,11 @@ function resizeMobile(){
     } else {
       mapheight = $(window).height()-parseInt($('#map .ui-header').css('height'));
     }
+    panoheight = $(window).height()-parseInt($('#streetview .ui-header').css('height'));
   }
   $("#map_canvas").css('height',mapheight);
   $("#map").css('height',$(window).height());
+  $("#streetview").css('height,panoheight');
   google.maps.event.trigger(map,'resize');
 }
 
