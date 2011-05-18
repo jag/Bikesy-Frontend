@@ -1,4 +1,4 @@
 RewriteEngine on
 
-Redirect 301 /mobile http://511contracosta.org/bike/mobile.html
-Redirect 301 /mobile/ http://511contracosta.org/bike/mobile.html
+Redirect 301 /bike/mobile http://511contracosta.org/bike/mobile.html
+Redirect 301 /bike/mobile/ http://511contracosta.org/bike/mobile.html
