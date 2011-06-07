@@ -105,7 +105,7 @@ function processpath(data, redraw, safety){
   var finishName = $('#finishbox').val().replace(/, USA/g, "");
   
   //Set Page Title
-  document.title = startName+" to "+finishName+" | San Francisco Bay Area Bike Mapper";
+  document.title = startName+" to "+finishName+" | Contra Costa County Bike Mapper";
   
   //Create Link URL
   linkURL = "?start=" + $('#startbox').val().replace(/&/g, "and").replace(/ /g, "+") + "&end=" + $('#finishbox').val().replace(/&/g, "and").replace(/ /g, "+") + "&hill=" + $('#hills').val();
