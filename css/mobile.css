@@ -102,7 +102,7 @@ html.landscape .geolocationwaiting{
 
 #map-buttons{
   position:absolute;
-  top:79px;
+  top:46px;
   right:129px;
 }
 
@@ -127,7 +127,7 @@ html.landscape .geolocationwaiting{
   background-attachment: initial; 
   background-origin: initial; 
   background-clip: initial; 
-  background-color: initial; 
+  background-color: #FFF; 
   background-position: initial initial; 
   background-repeat: initial initial;
   display:inline-block;
