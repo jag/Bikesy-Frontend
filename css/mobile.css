@@ -48,6 +48,15 @@ a img{
   margin-top:5px;
 }
 
+.icon{
+  vertical-align:text-top;
+  margin-right:3px;
+}
+
+.submitContainer{
+  margin-top:20px;
+}
+
 .geolocationwaiting{
   background: url(../images/loading.gif) 0 0 no-repeat;
   width:43px;
@@ -61,10 +70,6 @@ a img{
 html.landscape .geolocationwaiting{
   left: 23%;
   top: 14px;
-}
-
-.ui-select{
-  margin-bottom:20px;
 }
 
 .geolocation{
